@@ -1,0 +1,69 @@
+.container {
+  height: 3rem;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: var(--appBlack);
+  color: var(--appWhite);
+  
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact h3 {
+  font-size: 1rem;
+  display: flex;
+  align-items: center; 
+  margin: 0px 10px;  
+}
+
+
+.social {
+  cursor: pointer;
+  
+}
+
+.social a { color:white } 
+.social a:visited { text-decoration: none; color:white; }
+.social a:hover { text-decoration: none; color:white; }
+.social a:focus { text-decoration: none; color:white; }
+.social a:hover, a:active { text-decoration: none; color:white }
+
+.icon {
+  height: 1.5rem;
+  width: auto;
+  margin: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    height: 6.5rem; 
+    width: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;    
+    padding: 0px;
+  }
+
+  .icon {
+    height: 1.5rem; 
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact h3 {
+    font-size: 1rem;
+  }
+
+
+
+}

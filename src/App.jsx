@@ -8,11 +8,12 @@ import Projects from './routes/Projects'
 import Navbar from './components/navbar/Navbar'
 
 import style from './App.module.css'
+import Footer from './components/Footer'
 
  
  export default function App() {
    return (
-     <>       
+     <div className={style.container}>       
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
@@ -20,6 +21,7 @@ import style from './App.module.css'
           <Route path='/projects' element={<Projects />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
-     </>
+        <Footer />
+     </div>
    )
  }

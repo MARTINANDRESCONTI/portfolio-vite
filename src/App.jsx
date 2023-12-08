@@ -8,7 +8,7 @@ import Projects from './routes/Projects'
 import Navbar from './components/navbar/Navbar'
 
 import style from './App.module.css'
-import Footer from './components/Footer'
+
 
  
  export default function App() {
@@ -20,8 +20,7 @@ import Footer from './components/Footer'
           <Route path='/about' element={<About />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/contact' element={<Contact />} />
-        </Routes>
-        <Footer />
+        </Routes>        
      </div>
    )
  }

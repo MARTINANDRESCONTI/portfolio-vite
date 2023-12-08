@@ -1,13 +1,13 @@
 .container {
   height: 3rem;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-  background-color: var(--appBlack);
+  background-color: var(--appRed);
   color: var(--appWhite);
-  
+   
 }
 
 .contact {
@@ -48,6 +48,7 @@
     flex-direction: column-reverse;
     justify-content: space-around;    
     padding: 0px;
+    
   }
 
   .icon {

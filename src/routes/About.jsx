@@ -8,18 +8,15 @@ import Knowledge from '../components/Knowledge'
 
 
 export default function About() {
-
-  console.log(knowledges.data)
+ 
   const knowArray = knowledges.map(e => {
-    return <Knowledge 
-                source={e.source}
-                knowledge={e.knowledge}
-                icons={e.icons}
-    
+    return <Knowledge className={style.knowcontainer}
+              key={e.source}
+              source={e.source}
+              knowledge={e.knowledge}
+              icons={e.icons}    
     />
-  }
-
-  )
+  })
 
   return (
     <div className={style.container}>
@@ -34,7 +31,7 @@ export default function About() {
           I’ve always been curious about understanding new research areas and new technologies. And I like to be self-taught.
         </p>
       </div>
-      <div>
+      <div className={style.knowledgecontainer}>
         {knowArray}
       </div>
     </div>

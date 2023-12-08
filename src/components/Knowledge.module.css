@@ -1,0 +1,37 @@
+.mask {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  background-color: var(--appRed);
+  word-wrap: break-word;
+  border-radius: 15px;
+  color: white;
+}
+
+.container {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  word-wrap: break-word;
+  border-radius: 15px;
+  border: solid 3px var(--appWhite);
+}
+
+.knows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+}
+
+.icons {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 5px;
+}

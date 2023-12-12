@@ -26,10 +26,9 @@ export default function About() {
           <img className={style.img} src={Me} alt='photo of me' />
           <h2 className={style.hi}>Hi, I'm<br/>Martín Conti</h2>
         </div>
-        <p>
-          I'm a Full Stack web developer.<br></br>
-          I’ve always been curious about understanding new research areas and new technologies. And I like to be self-taught.
-        </p>
+        <p>I'm a Full Stack web developer.</p>
+        <p>I’ve always been curious about understanding new research areas and new technologies. And I like to be self-taught.</p>
+        <p>Here you can find some of my knowledges.</p>
       </div>
       <div className={style.knowledgecontainer}>
         {knowArray}

@@ -19,14 +19,17 @@
   justify-content: center;
   word-wrap: break-word;
   border-radius: 15px;
+  padding: 3px;
   border: solid 3px var(--appWhite);
 }
 
 .knows {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
   list-style-type: none;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 
 .icons {

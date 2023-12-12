@@ -16,7 +16,7 @@ const mongoIcon = <SiMongodb />
 
 export default [
   {
-    source: 'freeCodeComp',
+    source: 'freeCodeCamp',
     knowledge: ['HTML', 'Css', 'JavaScript', 'ReactJs'],
     icons: [htmlIcon, cssIcon, jsIcon, reactIcon]
   },
@@ -32,7 +32,7 @@ export default [
   },
    {
     source: 'sonHenry',
-    knowledge: ['JavaScript', 'ReactJs', 'Node', 'Express Js', 'Mongo'],
+    knowledge: ['JavaScript', 'ReactJs', 'Node', 'ExpressJs', 'Mongo'],
     icons: [jsIcon, reactIcon, nodeIcon, expressIcon, mongoIcon]
   }
 ]

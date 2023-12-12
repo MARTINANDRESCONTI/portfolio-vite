@@ -12,7 +12,7 @@ export default function Knowledges({knowledge, source, icons}) {
           {knowledge.map(e => <li key={e}>{e}</li>)}
         </ul>
         <ul className={style.icons}>
-          {icons.map(e => <li>{e}</li>)}
+          {icons.map((e,ind) => <li key={ind}>{e}</li>)}
         </ul>          
       </div>
     </div>

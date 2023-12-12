@@ -5,7 +5,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 40px;
-  padding: 30px 30px;
+  padding: 30px 80px;
 }
 
 .aboutcontainer{
@@ -52,7 +52,7 @@
   padding: 0px 15px;
   position: absolute;
   top: 350px;
-  left: 30px;
+  left: 80px;
   z-index: 1;
 
 }
@@ -66,6 +66,8 @@
   height: 100%;
   width: 100%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   flex-wrap: wrap;
   justify-content: center;
   gap:15px

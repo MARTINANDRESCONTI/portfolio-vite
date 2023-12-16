@@ -19,7 +19,7 @@ export default function Project({ img, title, description, website, github }) {
             <a className={style.website}
             href={website}
             >
-              Web site
+              Website
             </a>
             <a className={style.github}
             href={github}

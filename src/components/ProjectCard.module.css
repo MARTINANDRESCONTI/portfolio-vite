@@ -49,6 +49,14 @@
   padding: 0px 20px;
 }
 
+.buttoncontainer a {
+  text-decoration: none;
+}
+ 
+ /* .buttoncontainer a:visited { text-decoration: none; color: var(--appBlack); }
+ .buttoncontainer a:focus { text-decoration: none; color:var(--appBlack); } 
+ .buttoncontainer a:active { text-decoration: none; color:var(--appBlack); } */
+
 .website,
 .github {
   height: 30px;

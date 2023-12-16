@@ -2,7 +2,7 @@ import React from 'react'
 
 import ProjectCard from '../components/ProjectCard'
 import style from './Projects.module.css'
-import data from '../cardsData'
+import data from '../utils/cardsData'
 
 export default function Projects() {
   return (

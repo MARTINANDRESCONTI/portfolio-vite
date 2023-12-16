@@ -2,7 +2,7 @@ import React from 'react'
 
 import style from './About.module.css'
 import Me from '../assets/Me.jpg'
-import knowledges from '../knowledges' 
+import knowledges from '../utils/knowledges' 
 import Knowledge from '../components/Knowledge'
 
 

@@ -1,0 +1,23 @@
+.container {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  justify-content: space-between;
+}
+
+.formcontainer {
+  height: 700px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.displaybutton {
+  height: 50px;
+  background-color: red;
+  
+}

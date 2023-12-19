@@ -114,7 +114,7 @@ export default function Contact() {
               />             
               <button name='message' onClick={deleteInput} className={style.delete}>X</button>
             </div>
-            {errors.message && <p>{errors.message}</p>}       
+            {errors.message && <p className={style.p}>{errors.message}</p>}       
           </div>
           <div className={style.containerInput}>
             <label htmlFor='user_name'>Name</label>
@@ -129,7 +129,7 @@ export default function Contact() {
                 />
                 <button name='user_name' onClick={deleteInput} className={style.delete}>X</button>
               </div>
-              {errors.user_name && <p>{errors.user_name}</p>}
+              {errors.user_name && <p className={style.p}>{errors.user_name}</p>}
             </div>
             <label htmlFor='user_email'>Email</label>
             <div className={style.containerUserEmail}>
@@ -143,7 +143,7 @@ export default function Contact() {
                 />
                 <button name='user_email' onClick={deleteInput} className={style.delete}>X</button>
               </div>
-              {errors.user_email && <p>{errors.user_email}</p> }
+              {errors.user_email && <p className={style.p}>{errors.user_email}</p> }
             </div>
           </div>          
         </div>

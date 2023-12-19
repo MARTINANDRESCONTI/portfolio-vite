@@ -1,11 +1,12 @@
 .container {
   height: 90%;
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 40px;
   padding: 30px 80px;
+  flex-wrap: wrap;
 }
 
 .aboutcontainer{
@@ -66,7 +67,7 @@
 
 .knowledgecontainer {
   height: 100%;
-  width: max-content;
+  width: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -82,6 +83,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: nowrap;
   }
 
   .aboutcontainer{

@@ -1,10 +1,10 @@
 .mask {
-  margin-top: 30px;
-  height: 400px;
+  margin: 50px 0px;
+  height: 440px;
+  width:350px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width:30%;
   background-color: var(--appWhite);
   border-radius: 10px;
 }  
@@ -74,11 +74,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  .mask {
-    height: 430px;
-    width:60%;
-  }  
-
   .containerbody {
     height: 170px;
     width: 100%;

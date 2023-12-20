@@ -1,4 +1,3 @@
-
 export default [
   {
     img: './calculator.jpeg',

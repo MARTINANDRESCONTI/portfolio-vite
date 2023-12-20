@@ -119,8 +119,7 @@ textarea:focus {
 }
 
 .errors {
-  border: solid var(--appRed) 2px;
-  
+  border: solid var(--appRed) 2px;  
 }
 
 .containerButtons {
@@ -177,7 +176,6 @@ textarea:focus {
   width: 100%; 
 }
 
-
 .formcontainer {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -193,7 +191,6 @@ textarea:focus {
   height: 500px;  
 }
 
-
 label {
   font-size: 18px;
 }
@@ -208,8 +205,6 @@ label {
 .input {  
   height: 50px;  
 }
-
-
 
 .containerInput {
   height: min-content;

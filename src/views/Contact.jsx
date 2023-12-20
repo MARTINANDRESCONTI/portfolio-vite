@@ -4,12 +4,9 @@ import emailjs from '@emailjs/browser';
 import style from './Contact.module.css'
 import Footer from '../components/Footer'
 import { FaTrash } from "react-icons/fa";
-// import validate from '../utils/validate'
-
-
+import validate from '../utils/validate'
 
 export default function Contact() {
-
   const [input, setInput] = useState({
     user_name: '',
     user_email:'',
@@ -21,22 +18,6 @@ export default function Contact() {
     user_email:'Useremail is required...',
     message:'Message is required...'
   })
-
-  function validate(input) {
-    let errors ={}
-
-  if (!input.user_name) errors.user_name = 'Username is required...';
-  
-  if (!input.user_email) {
-    errors.user_email = 'Useremail is required...';
-  } else if (!/\S+@\S+\.\S+/.test(input.user_email)) {
-    errors.user_email = 'Useremail is invalid';
-  }
-
-  if (!input.message) errors.message = 'Message is required...';
-  
-  return errors;
-  }; 
 
   const handleChange = (e)=>{
     setInput((prev) => {
@@ -51,8 +32,7 @@ export default function Contact() {
   }
   const form = useRef();
 
-  const sendEmail = (e) => {
-    
+  const sendEmail = (e) => {    
     e.preventDefault();  
     emailjs.sendForm('service_4knsyzd', 'template_syz7qfa', form.current, '9ghiTPHPb4wc4CIZc')
       .then((result) => {
@@ -75,8 +55,7 @@ export default function Contact() {
 
     return newState; 
     })
-  }  
-
+  } 
 
   const resetAllInputs = (e)=>{
     e.preventDefault();   
@@ -90,10 +69,7 @@ export default function Contact() {
       user_email:'Useremail is required',
       message:'Message is required'
     })
-  }
-
-
-  
+  }  
 
   return (
     <div className={style.container}>
@@ -125,7 +101,7 @@ export default function Contact() {
                   name='user_name' 
                   value={input.user_name} 
                   onChange={handleChange}
-                  autocomplete='off'
+                  autoComplete='off'
                 />
                 <button name='user_name' onClick={deleteInput} className={style.delete}>X</button>
               </div>
@@ -139,7 +115,7 @@ export default function Contact() {
                   name='user_email' 
                   value={input.user_email}
                   onChange={handleChange} 
-                  autocomplete='off'
+                  autoComplete='off'
                 />
                 <button name='user_email' onClick={deleteInput} className={style.delete}>X</button>
               </div>
@@ -152,8 +128,7 @@ export default function Contact() {
             {!errors.user_name && !errors.user_email && !errors.message && <button className={style.send} onSubmit={sendEmail}>Send message</button>}
           </div>
           <button className={style.deleteAll} onClick={resetAllInputs}>Reset all <FaTrash /></button>
-        </div>
-        
+        </div>        
       </form>
       <Footer />
     </div>

@@ -18,8 +18,7 @@ export default function Projects() {
             github={e.github}
           />    
         )
-      })}
-       
+      })}       
     </div>
   )
 }

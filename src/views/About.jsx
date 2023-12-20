@@ -5,10 +5,7 @@ import Me from '../assets/Me.jpg'
 import knowledges from '../utils/knowledges' 
 import Knowledge from '../components/Knowledge'
 
-
-
-export default function About() {
- 
+export default function About() { 
   const knowArray = knowledges.map(e => {
     return <Knowledge className={style.knowcontainer}
               key={e.source}

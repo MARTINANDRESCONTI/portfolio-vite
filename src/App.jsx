@@ -8,8 +8,6 @@ import Projects from './views/Projects'
 import Navbar from './components/Navbar'
 
 import style from './App.module.css'
-
-
  
  export default function App() {
    return (

@@ -7,7 +7,6 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { FaTimes } from "react-icons/fa";
 
 export default function Navbar() {
-
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
@@ -34,8 +33,7 @@ export default function Navbar() {
         <div className={style.hamcontainer} onClick={handleClick}>
           {click ? (<FaTimes className={style.times}/>) : (<GiHamburgerMenu className={style.hamburger}/>) }
         </div>       
-      </div>
-      
+      </div>      
     </div>
   )
 }

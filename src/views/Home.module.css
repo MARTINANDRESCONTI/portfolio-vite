@@ -27,9 +27,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px 0px;
- 
-  
+  gap: 20px 0px;  
 }
 
 .title {
@@ -52,10 +50,8 @@
 .linkcontainer a:focus { text-decoration: none; color:white; }
 .linkcontainer, a:active { text-decoration: none; color:white }
 
-
 .btnprojects {  
   color: white;
-  /* background-color: var(--appRed); */
 }
 
 .btnprojects,
@@ -96,15 +92,4 @@
     height: 2.5rem;
     width: 10rem;
   }
-
-  /* .container {
-  height: calc(50% - 7rem);
-  width: 50%;  
-  }
-
-  .homecontainer {
-  height: calc(50% - 6.5rem);
-  width: 50%;
-  } */
-
 }

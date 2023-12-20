@@ -3,11 +3,9 @@ import React from 'react'
 import style from './ProjectCard.module.css'
 import { IoLogoGithub } from "react-icons/io";
 
-
 export default function Project({ img, title, description, website, github }) {
   return (
     <div className={style.mask}>
-
       <div className={style.container}>
         <div >
           <img className={style.img} src={img} />

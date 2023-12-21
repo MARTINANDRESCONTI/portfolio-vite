@@ -16,11 +16,13 @@ export default function Project({ img, title, description, website, github }) {
           <div className={style.buttoncontainer}>
             <a className={style.website}
             href={website}
+            target='_blank'
             >
               Website
             </a>
             <a className={style.github}
             href={github}
+            target='_blank'
             >
               Go to 
               <IoLogoGithub className={style.icon}/>

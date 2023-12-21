@@ -18,10 +18,10 @@ export default function Footer() {
         </h3>
       </div>
       <div className={style.social}>
-        <a href='https://www.linkedin.com/in/martinandresconti/'>
+        <a href='https://www.linkedin.com/in/martinandresconti/' target='_blank'>
           <IoLogoLinkedin className={style.icon}/>
         </a>
-        <a href='https://github.com/MARTINANDRESCONTI'>
+        <a href='https://github.com/MARTINANDRESCONTI' target='_blank'>
           <IoLogoGithub className={style.icon}/>
         </a>
       </div>     

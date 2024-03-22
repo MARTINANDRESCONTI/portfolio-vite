@@ -37,13 +37,13 @@
   height: 200px;
   width: 200px;
   position: relative;
-  margin-left: 10px;
+  margin-left: 25px;
   z-index: 2;  
 }
 
 .mask {
   height: 40px;
-  width: 45%;
+  width: 22rem;
   font-size: larger;
   font-weight: 700;
   display: flex;

@@ -6,6 +6,7 @@ import About from './views/About'
 import Contact from './views/Contact'
 import Projects from './views/Projects'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 import style from './App.module.css'
  
@@ -18,7 +19,8 @@ import style from './App.module.css'
           <Route path='/about' element={<About />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/contact' element={<Contact />} />
-        </Routes>        
+        </Routes> 
+        <Footer />       
      </div>
    )
  }

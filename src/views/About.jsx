@@ -4,6 +4,7 @@ import style from './About.module.css'
 import Me from '../assets/Me.jpg'
 import knowledges from '../utils/knowledges' 
 import Knowledge from '../components/Knowledge'
+import Footer from '../components/Footer'
 
 export default function About() { 
   const knowArray = knowledges.map(e => {
@@ -29,7 +30,7 @@ export default function About() {
       </div>
       <div className={style.knowledgecontainer}>
         {knowArray}
-      </div>
+      </div>      
     </div>
   )
 }

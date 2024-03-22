@@ -16,8 +16,7 @@ export default function Home() {
             <Link to='/projects' className={style.btnprojects}>Projects</Link>      
             <Link to='/contact' className={style.btncontact}>Contact</Link>        
           </div> 
-        </div>         
-      <Footer />
+        </div> 
       </div>
     </>
   )

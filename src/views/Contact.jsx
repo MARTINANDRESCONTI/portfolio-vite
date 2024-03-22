@@ -1,10 +1,9 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
-import style from './Contact.module.css'
-import Footer from '../components/Footer'
+import style from './Contact.module.css';
 import { FaTrash } from "react-icons/fa";
-import validate from '../utils/validate'
+import validate from '../utils/validate';
 
 export default function Contact() {
   const [input, setInput] = useState({
@@ -130,7 +129,6 @@ export default function Contact() {
           <button className={style.deleteAll} onClick={resetAllInputs}>Reset all <FaTrash /></button>
         </div>        
       </form>
-      <Footer />
     </div>
   );
 };

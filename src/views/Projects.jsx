@@ -16,9 +16,9 @@ export default function Projects() {
             description={e.description} 
             website={e.website} 
             github={e.github}
-          />    
+          />  
         )
-      })}       
+      })} 
     </div>
   )
 }

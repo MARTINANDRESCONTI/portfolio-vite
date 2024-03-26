@@ -8,7 +8,9 @@ export default function Project({ img, title, description, website, github }) {
     <div className={style.mask}>
       <div className={style.container}>
         <div >
-          <img className={style.img} src={img} />
+           <a href={website} target='_blank' >
+              <img className={style.img} src={img} />
+            </a>
         </div>
         <div className={style.containerbody}>
           <h2 className={style.title}>{title}</h2>

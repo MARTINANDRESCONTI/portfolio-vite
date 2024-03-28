@@ -274,6 +274,7 @@ label {
   
   .input > input {
     width: 100%;
+    color: var(--appBlack);
   }
 
   .containerInput input ,

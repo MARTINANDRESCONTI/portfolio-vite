@@ -4,7 +4,8 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  background: linear-gradient( 20deg, var(--appBrown)50%,var(--appVeige)50%);
+  background-color: var(--appWhite);
+  /* background: linear-gradient( 20deg, var(--appBrown)50%,var(--appVeige)50%); */
 }
 
 .aboutcontainer{
@@ -84,7 +85,7 @@
     flex-direction: column;
     align-items: center;
     flex-wrap: nowrap;    
-    background: linear-gradient( 65deg, var(--appBrown)50%,var(--appVeige)50%);
+    /* background: linear-gradient( 65deg, var(--appBrown)50%,var(--appVeige)50%); */
   }
 
   .aboutcontainer{
@@ -159,7 +160,7 @@
 @media screen and (max-width: 400px) {
   .container {
     width: 100%;
-    background: linear-gradient( 70deg, var(--appBrown)50%,var(--appVeige)50%);
+    /* background: linear-gradient( 70deg, var(--appBrown)50%,var(--appVeige)50%); */
   }
   
   .aboutcontainer {

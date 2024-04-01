@@ -5,6 +5,8 @@
   flex-direction: column;  
   align-items: center;
   justify-content: space-between;
+  /* background: linear-gradient( var(--appWhite),var(--appVeige)); */
+  background-color: var(--appWhite);
 }
 
 .formcontainer {
@@ -53,8 +55,6 @@ label {
   display: flex;
   align-items: center;
 }
-
-
 
 .containerInput {
   height: 100%;
@@ -112,6 +112,13 @@ input:focus {
   width: 100%;
   background-color: transparent;
   border: none;
+}
+
+::placeholder {
+  font-family: var(--fontPoppins);
+  color: var(--appBlack);
+  font-size: 16px; 
+  font-weight: 500;  
 }
 
 textarea:focus {
@@ -251,6 +258,8 @@ label {
 .containerInput input {
   height: 30px;
   width: 350px;
+  color: var(--appBlack);
+  background-color: var(--appWhite);
 }
 
 .containerSend {

@@ -2,7 +2,7 @@ export default [
   {
     img: './moviesearcher.jpeg',
     title: 'Movie App',
-    description: 'This app, was build using Nextjs, Redux and Redux tool kit',
+    description: 'This app, was build using Nextjs, Redux and Redux toolkit',
     website: 'https://movie-app-plum-tau.vercel.app/',
     github: 'https://github.com/MARTINANDRESCONTI/Movie-app'
   },

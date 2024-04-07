@@ -5,7 +5,6 @@
   flex-direction: column;  
   align-items: center;
   justify-content: space-between;
-  /* background: linear-gradient( var(--appWhite),var(--appVeige)); */
   background-color: var(--appWhite);
 }
 
@@ -17,8 +16,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  background: conic-gradient(at 70% 80%,#a900414d, white,var(--appWhite));
+  border: solid 2px var(--appDarkGreen);
+  background: conic-gradient(at 70% 80%,#3a4e484c, white,var(--appWhite));
 }
+  /* border: solid 2px var(--appRed);
+  background: conic-gradient(at 70% 80%,#a900414d, white,var(--appWhite));
+} */
 
 .containerIputText {
   height: 85%;
@@ -156,27 +159,22 @@ textarea:focus {
 }
 
 .send {
-  background-color: var(--appBrown);
+  height: 35px;
+  width: 150px;
+  background-color: var(--appGreen);
   color: var(--appBlack);
+  font-size: 16px;
+  padding: 5px 25px;
 }
 
 .deleteAll {
   background-color: var(--appRed);
   color: var(--appWhite);
-}
-
-.deleteAll,
-.send {
   width: fit-content;
-  height: fit-content;  
+  height: 35px;  
   font-size: 16px;
   padding: 5px 25px;
   }
-
-.containerSend {
-  height: 40px;
-  width: 220px;  
-}
 
 .deleteAll:hover,
 .send:hover {
@@ -267,12 +265,17 @@ label {
   width: 40%;  
 }
 
-.deleteAll,
-.send {
-  width: fit-content;
-  height: fit-content;  
-  font-size: 16px;
-  padding: 5px 25px;
+  .deleteAll {
+    width: fit-content;
+    height: fit-content;  
+    font-size: 16px;
+    padding: 5px 25px;
+  }
+
+  .send {
+    height: fit-content;  
+    font-size: 16px;
+    padding: 5px 25
   }
 }
 
@@ -293,6 +296,10 @@ label {
 
   .containerTextarea textarea {
     border: 1px solid gray;
+  }
+
+  .send {
+    width: fit-content; 
   }
 
 }

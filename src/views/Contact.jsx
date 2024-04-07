@@ -123,9 +123,7 @@ export default function Contact() {
           </div>          
         </div>
         <div className={style.containerButtons}>
-          <div className={style.containerSend}>
-            {!errors.user_name && !errors.user_email && !errors.message && <button className={style.send} onSubmit={sendEmail}>Send</button>}
-          </div>
+          {!errors.user_name && !errors.user_email && !errors.message && <button className={style.send} onSubmit={sendEmail}>Send</button>}          
           <button className={style.deleteAll} onClick={resetAllInputs}>Reset all <FaTrash /></button>
         </div>        
       </form>

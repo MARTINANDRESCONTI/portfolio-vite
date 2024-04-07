@@ -8,12 +8,11 @@
   row-gap: 30px;
   justify-items: center;
   padding: 20px 10px;
-  /* background: linear-gradient( var(--appVeige), var(--appBrown)); */
-   /* background: linear-gradient( var(--appWhite),var(--appVeige)); */
+  background: linear-gradient( var(--appGreen) 60%, var(--appWhite));
   background-color: var(--appWhite); 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1109px) {
   .container{
     height: fit-content;
   }

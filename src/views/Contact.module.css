@@ -133,7 +133,7 @@ textarea:focus {
 }
 
 .containerButtons {
-  height: 100%;
+  height: 40px;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -159,7 +159,6 @@ textarea:focus {
 }
 
 .send {
-  height: 35px;
   width: 150px;
   background-color: var(--appGreen);
   color: var(--appBlack);
@@ -171,7 +170,6 @@ textarea:focus {
   background-color: var(--appRed);
   color: var(--appWhite);
   width: fit-content;
-  height: 35px;  
   font-size: 16px;
   padding: 5px 25px;
   }

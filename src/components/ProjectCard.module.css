@@ -52,6 +52,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  padding: 0px 20px;
 }
 
 .buttoncontainer a {
@@ -61,7 +62,7 @@
 .website,
 .github {
   height: 30px;
-  width: 100px;
+  width: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,6 +70,7 @@
   background-color: var(--appGreen);
   gap: 4px;
   color: var(--appBlack);
+  font-size: 12px;
   font-weight: 800;
   cursor: pointer;  
 }
@@ -76,4 +78,9 @@
 .website:hover,
 .github:hover {
   opacity: 0.7;
+}
+
+.icon {
+  height: 14px;
+  width: 14px;
 }

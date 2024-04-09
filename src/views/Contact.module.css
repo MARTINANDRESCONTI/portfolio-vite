@@ -152,7 +152,7 @@ textarea:focus {
   justify-content: center;
   border-radius: 50px;
   gap: 4px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   cursor: pointer; 
   border: none; 
@@ -162,7 +162,6 @@ textarea:focus {
   width: 150px;
   background-color: var(--appGreen);
   color: var(--appBlack);
-  font-size: 16px;
   padding: 5px 25px;
 }
 
@@ -170,7 +169,6 @@ textarea:focus {
   background-color: var(--appRed);
   color: var(--appWhite);
   width: fit-content;
-  font-size: 16px;
   padding: 5px 25px;
   }
 
@@ -265,14 +263,12 @@ label {
 
   .deleteAll {
     width: fit-content;
-    height: fit-content;  
-    font-size: 16px;
+    height: fit-content; 
     padding: 5px 25px;
   }
 
   .send {
-    height: fit-content;  
-    font-size: 16px;
+    height: fit-content; 
     padding: 5px 25
   }
 }
@@ -300,4 +296,10 @@ label {
     width: fit-content; 
   }
 
+  .deleteAll,
+  .send {
+    height: 30px;    
+    font-size: 12px;
+    font-weight: 500;
+  }
 }

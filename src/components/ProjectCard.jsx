@@ -1,7 +1,8 @@
 import React from 'react'
 
 import style from './ProjectCard.module.css'
-import { IoLogoGithub } from "react-icons/io";
+import { IoLogoGithub } from "react-icons/io"
+import { BiWorld } from "react-icons/bi";
 
 export default function Project({ img, title, description, website, github }) {
   return (
@@ -21,13 +22,12 @@ export default function Project({ img, title, description, website, github }) {
           href={website}
           target='_blank'
           >
-            Website
+            <BiWorld className={style.icon}/>
           </a>
           <a className={style.github}
           href={github}
           target='_blank'
           >
-            Go to 
             <IoLogoGithub className={style.icon}/>
           </a>
         </div>  
